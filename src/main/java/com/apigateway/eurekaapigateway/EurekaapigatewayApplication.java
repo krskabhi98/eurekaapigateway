@@ -2,8 +2,10 @@ package com.apigateway.eurekaapigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class EurekaapigatewayApplication {
 
 	public static void main(String[] args) {
